@@ -3,7 +3,7 @@
 ## Some of the newer items for the Term Project## are at near the bottom, as I added them late ##
 The Template.html file serves to keep consistency for the various HTML 5 coding across these 5 pages. Note that the areas where I have gone above and beyond are in **bold** in the Markdown below
 
-> Open up the File **Biography.html** although you can open any part of the site, as it has 5 pages:
+> Open up the File **index.html** although you can open any part of the site, as it has 5 pages:
 1. Home; 
 2. About P3; 
 3. Portfolios by Possible Investments; 
