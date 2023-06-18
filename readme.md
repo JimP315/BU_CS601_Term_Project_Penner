@@ -1,6 +1,6 @@
 ## CS601_HW1_Penner
 ### Steps to get this Homework Assignment 1 Working: 
-
+## Some of the newer items for the Term Project## are at near the bottom, as I added them late ##
 The Template.html file serves to keep consistency for the various HTML 5 coding across these 5 pages. Note that the areas where I have gone above and beyond are in **bold** in the Markdown below
 
 > Open up the File **Biography.html** although you can open any part of the site, as it has 5 pages:
