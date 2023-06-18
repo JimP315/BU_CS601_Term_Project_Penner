@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styless.css">
+    <title>TP - CS601-Penner/How to Invest</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox">
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
+
+        <ul class="menu__box">
+            <li><a class="menu__item" href="./index.html">Hero</a></li>
+            <li><a class="menu__item" href="./home.html">Home</a></li>
+            <li><a class="menu__item" href="./About2.html">About</a></li>
+            <li><a class="menu__item" href="./Portfolios.html">Clever Portfolios</a></li>
+            <li><a class="menu__item" href="./How_to_Invest.html">Get Started</a></li>
+            <li><a class="menu__item" href="./Reporting2.html">Reporting</a></li>
+            <li><a class="menu__item" href="./travel.html">Travel</a></li>
+            <li><a class="menu__item" href="./food.html">Food</a></li>
+            <li><a class="menu__item" href="./basketball.html">Basketball</a></li>
+        </ul>
+        <div class="container">
+            <nav>
+                <h2>Account Establishment</h2>
+            </nav>
+
+            <aside><br><!--use table with onclick function here-->
+                <h2>The last 6 months have produced quite a rollercoaster ride for investors regardless of risk profile
+                    type.</h2><br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="col">
+                                See below for the top 3 performers/ contributors in our portfolio for the last 6
+                                months &#x1F4C8; :
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><b>Brambles Ltd (BXB)</b>, total return 13.96%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Wesfarmers Ltd (WES)</b>, total return 11.38%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Van Eck MSCI Int'l Quality ETF (QUAL)</b>, total return 10.24%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <br><br>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th scope="col">
+                                See below for the bottom 3 performers/ detractors in our portfolio for the last 6 months
+                                :
+
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><b>Amcor plc (AMC)</b>, total return -8.42%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Charter Hall Group Stapled Securities (CHC)</b>, total return -6.81%</td>
+                        </tr>
+                        <tr>
+                            <td><b>Commonwealth Bank of Aust. (CBA)</b>, total return -6.65%</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br><br>
+                <figure> <img src="./Images/guyonlaptop.jpg" alt="Client logging in" width="577" height="385">
+                    <figcaption> Account set up takes under 10 minutes (i) </figcaption>
+                </figure><br><br><br>
+
+                <form id="pick-account">
+                    <input type="checkbox" id="hide">
+                    <label for="hide">Hide all choices</label>
+                    <input type="text" placeholder=" Add an account type..">
+                    <button type="submit">Add</button>
+
+                    <h2>What type of account are you establishing?</h2> - You may select more than one: <br>
+
+                    <ul>
+                        <li>
+                            <span class="name"><b>Individual</b></span> <span class="delete">delete</span>
+                        </li>
+                        <li>
+                            <span class="name"><b>Joint</b></span>
+                            <span class="delete">delete</span>
+                        </li>
+                        <li> <span class="name"><b>SMSF</b></span>
+                            <span class="delete">delete</span>
+                        </li>
+                        <li> <span class="name"><b>Family Trust</b></span>
+                            <span class="delete">delete</span>
+                        </li>
+                        <li> <span class="name"><b>Company</b></span>
+                            <span class="delete">delete</span>
+                        </li>
+                        <li> <span class="name"><b>Invest for a child(minor)</b></span>
+                            <span class="delete">delete</span>
+                        </li>
+
+                    </ul><br><br><br><br><br><br><br><br><br>
+                </form>
+            </aside>
+            <script src="app.js"></script>
+            <header>
+
+
+                <form action="http://www.possibleinvestments.com.au">
+                    <br><br><br>
+                    <p>In which State do you reside?:
+
+                        <input type="radio" name="State" value="Queensland" >
+                        Queensland
+                        <input type="radio" name="State" value="New South Wales"> New
+                        South Wales
+                        <input type="radio" name="State" value="Victoria" > Victoria
+                        <input type="radio" name="State" value="South Australia" >
+                        South Australia
+                        <input type="radio" name="State" value="Tasmania"> Tasmania
+                        <input type="radio" name="State" value="Western Australia" >
+                        Western Australia
+                        <input type="radio" name="State" value="Northern Territory" >
+                        Northern
+                        Territory
+                    </p><button type="submit">Submit</button>
+                </form>
+
+                <!--Note that this will eventually be selection boxes, so for CSS and JavaScript it is a list now but later will be rectangles on a page-->
+
+
+                <p><br><br>What level of Investment Risk are you willing to take up to meet your investment expectations
+                </p>
+                <!--insert a form here with 3 questions for next HW2-->
+                <div class="app">
+                    <h2>Risk Profile</h2>
+                    <div class="quiz">
+                        <h4 id="question">How would your closest friends and family describe you</h4>
+                        <div id="answer-buttons"></div>
+                        <button type="button" class="btn">Easy-going</button>
+                        <button type="button" class="btn">D.I.Y person</button>
+                        <button type="button" class="btn">Focussed</button>
+                        <button type="button" class="btn">Risk-taker</button>
+                    </div>
+                    <button id="next-btn" type="button">Next</button>
+
+                </div>
+                <script src="./profile.js"></script>
+
+                <br><br><br><br><br>
+                <h4>Investment Options - Query Selectors</h4><br><br><br>
+                Our Possible investments offer life cycle type investing. Unique in the Australian financial services
+                landscape. Your portfolio should suit your stage, and your timeframes. It is not one-size fits all. At
+                Possible, we also embrace all things tech. As such, we are getting ready to launch an A.I driven
+                funtionality to assist with simplified budgeting tools based on Machine learning, and getting to know
+                how you run your finances. See here for some cool tech, known as query selectors, where you can do
+                query's on either id's, classes or tags. This is a simple tool to assist you as a potential investor
+                understand some of the many investment choices:<br><br>
+                <h3>Preference</h3>
+                <h3>Select 1st Preference: Investment Asset classes</h3>
+                <select>
+                    <option disabled hidden selected>Select</option>
+                    <option value=" Australian Shares">Australian shares</option>
+                    <option value=" Listed Property">Listed Property</option>
+                    <option value=" International Shares">International Shares</option>
+                    <option value=" Bonds">Bonds</option>
+                    <option value=" Commodities">Commodities</option>
+                </select>
+
+                <script src="./script.js"></script>
+                <br>
+                <p>Australian shares as the name suggests will provide an investor access to the top 200 shares mainly
+                    on the Australian share market. In reality a heavy concentration towards the Top 20 - 50 shares is
+                    more likely.
+                    <br> Investment into Listed Property, will provide greater access to capital as you will hold a
+                    mixture of commercial, office, retail, warehouse, distribution type properites via listed companies
+                    on the Australian and other share markets.
+                    <br> Taking up International Share investment provides the greatest scope since the Australian share
+                    market really only represents around 2% of all world equity markets. On top of that, since Australia
+                    is not a tech heavy, or research heavy nation, it is imperative to hold International shares in
+                    order to get greater diversification.
+                    <br>Bonds are known as fixed income investments that involve the receipt of interest payments from a
+                    large corporation or government. The investor essentially lends money in the anticipation of getting
+                    the capital back at a later date, and in the meantime receives an interest rate return, dictated by
+                    the level of risk being undertaken.
+                    <br> Commodity investment is often seen as more speculative and something that should not be a
+                    massive part of your investment portfolio. You may believe gold, or lithium, or some precious metal
+                    for instance will rise in value. Since you may not receive an income from this asset, this is why it
+                    is considered speculative.
+                </p>
+
+
+
+                <p>&copy; James Penner 2023</p> <a href="#top">Top of page</a>
+                <h5>Sources
+                </h5>
+                <ul>
+                    <li> (i) - Stocksy photo, used under paid license, April 2023 </li>
+
+                </ul>
+
+            </header>
+
+        </div>
+
+    </div>
+    <!--this will lead to another page eventually and will capture more data, may need SQL-->
+
+    <!--<form method="post" action="http://www.possibleclient.com.au/registration"></script>
+            <label for="username">Create username</label>
+            <input type="text" id="username">
+                <div id="feedback"></div>
+
+
+                <label for="password">Create password:</label>
+                <input type="password" id="password">
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>-->
+
+    <!--<h3>Aside</h3><br>
+        <aside class="media-q"> </aside>-->
+
+    <footer>
+
+
+    </footer>
+
+
+</body>
+
+</html>

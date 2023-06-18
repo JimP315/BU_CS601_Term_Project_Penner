@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#app {
+    position: absolute;
+    height: 475px;
+    width: 310px;
+    left: 40%;
+    top: 30%;
+    transform: translate(-55%,-25%);
+    padding: 6px 12px;
+    background-color: rgb(214, 241, 241);
+    box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.4);
+}
+h3{
+    font-size: 36 px;
+    color: blueviolet; 
+    letter-spacing: 2px;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.container input[type="text"]{
+    height: 42px;
+    width: 70%;
+    border: 1cm;
+    padding-left: 15px;
+    transition: all .4s ease-in;
+}
+.container button {
+    height: 55px;
+    width: 90px;
+    border: 1cm;
+    font-size: 17px;
+    background-color: darkslategray;
+    color:rgb(214, 241, 241);
+    cursor: crosshair;
+
+}
+.container button:hover {
+    opacity: 0.78;
+
+}
+
+::placeholder{
+    color:rgb(184, 181, 204);
+}
+
+.container input[type="text"]:focus{
+    outline: none;
+    box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+/* list of task */
+
+.list{
+    position: absolute;
+    width: 100%;
+    display: flex; 
+    flex-direction: column;
+    left: -38px;
+}
+.list li{
+    background-color: rgb(28, 61, 170);
+    text-align: center;
+    height: 42px;
+    color:#fff;
+    font-size: 23px;
+    line-height: 39px;
+    margin-top: 1px;
+    list-style: none;
+    position: relative;
+}
+
+.list li i{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 38px;
+    text-align: center;
+    line-height: 39px;
+    background-color: rgb(243, 111, 17);
+    transition: all .2s linear;
+    cursor: pointer;
+
+}
+.list li i:hover{
+    background-color: red;
+}
+@media screen and (max-width: 720px) {
+    #app {
+        width: 400px;
+    }
+}

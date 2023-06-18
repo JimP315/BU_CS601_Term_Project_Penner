@@ -1,0 +1,25 @@
+{
+	"current_portfolios": [
+		{
+			"Date": "Date",
+			"Details": "Portfolio Range ($)",
+			"Expedition": "$10,000+",
+			"Ascent": "$75,000+",
+			"Summit": "1993"
+		},
+		{
+			"Date": "Jan 2021",
+			"Details": "Num of Holdings(approx)",
+			"Expedition": "5-8",
+			"Ascent": "9-16",
+			"Summit": "33-40"
+		},
+		{
+			"Date": 5,
+			"Details": "Monitoring Frequency",
+			"Expedition": "Monthly",
+			"Ascent": "Monthly",
+			"Summit": "Daily"
+		}
+	]
+}
