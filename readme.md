@@ -1,27 +1,38 @@
 ## CS601_HW1_Penner
-### Steps to get this Homework Assignment 1 Working: 
+### Steps to get this Term Project Working:
+## Now that I have updated the Term Project, here is the update of how you can get the client Todo working: ##
+For the todo list for client with Vue and the add and delete buttons, the files associated with this are:
+1. todo.html;
+2. main1.js;
+3. style.css; also
+4. Component folder, and in that folder are:
+5.  Three js files:  todo.js, todoComponent.js and todolist.js.
+
+These all actually flow from How_to_invest.html.  When the client has the radio button input for which state they are in, the submit button will now take them to the first file above:  todo.html and this will then run the todo via vue functionality.
+## There is now a hero page, and from this runs the recursion javascript file onto a separate page.  ##
+Although this doesnt have the same background, etc with navigation I wanted to show that I had incorporated some maths into the website, as I have always enjoyed maths, and recursion is quite challenging. After the hero page is an update on my hobbies of travel, and family, and sports etc. 
 ## Some of the newer items for the Term Project## are at near the bottom, as I added them late ##
 The Template.html file serves to keep consistency for the various HTML 5 coding across these 5 pages. Note that the areas where I have gone above and beyond are in **bold** in the Markdown below
 
 > Open up the File **index.html** although you can open any part of the site, as it has 5 pages:
-1. Home; 
-2. About P3; 
-3. Portfolios by Possible Investments; 
-4. How to get started; 
-5. Investment Philosophy; 
+1. Home;
+2. About P3;
+3. Portfolios by Possible Investments;
+4. How to get started;
+5. Investment Philosophy;
 
- First page of the site has the most content, and I have tried to incorporate all of the requested materials into it for the required marks. Used navigation under HTML 5 so clicking one page, will still provide you access to all others; 
+ First page of the site has the most content, and I have tried to incorporate all of the requested materials into it for the required marks. Used navigation under HTML 5 so clicking one page, will still provide you access to all others;
 
-### Page one:  Home, 
+### Page:  Home,
 
-I have incorporated nesting, and some of the HTML 5 aspects that I have utilised are as follows: 
-- Various **emoticons** since this is very standard, and seems worthwhile on a personal, fun facts type page; 
-- Various breaks so that there is flow from the details on the caravan, to my upbringing to the background of my computer science class and purchase of an early stage home computer, before they became ominpresent; 
+I have incorporated nesting, and some of the HTML 5 aspects that I have utilised are as follows:
+- Various **emoticons** since this is very standard, and seems worthwhile on a personal, fun facts type page;
+- Various breaks so that there is flow from the details on the caravan, to my upbringing to the background of my computer science class and purchase of an early stage home computer, before they became ominpresent;
 
 - Video of my caravan experience by using the *webm file versions of video for greater efficiency and speed in loading to Mozila Firefox*.  I also used a **poster** and some of the learnings from the textbook on how to set up video and have it load once the user clicks it.  Whenever using images, I have followed the protocols suggested regarding the width, and height of the image. This has used **inline** elements
 - All images and Assets used in this first page, and all others are held in the folder names for this Homework1_Penner 
-- I have used a **map image as instructed in the textbook about HTML map upload** - this obviously is the map of Brazil - & i incorporated **abbreviation for Kilometres**, since metric is used here, not imperial. 
-- Unordered lists for describing the games I played on the first computer & also a **youtube video** on one of the most famous computer games over many decades. 
+- I have used a **map image as instructed in the textbook about HTML map upload** - this obviously is the map of Brazil - & i incorporated **abbreviation for Kilometres**, since metric is used here, not imperial.
+- Unordered lists for describing the games I played on the first computer & also a **youtube video** on one of the most famous computer games over many decades.
 - For the **acronym for ASIC** when I discuss my P3 FP role, I have referenced the Australian Securities and Investment Commission, when you highlight ASIC 
 - Included a **bibliography**, but not sure if this is the way to do it on a web page - this again incorporated an unordered list. 
 
@@ -40,6 +51,8 @@ I have incorporated nesting, and some of the HTML 5 aspects that I have utilised
 - Many investment related sites have disclaimers, as does this one, to ensure that people dont take it as gospel that good performace begats good performance. 
 
 ### Page four : How to Invest 
+
+_ I have now updated this page with the Term Project.  This form about where they reside has an action to it.  This will allow for the client to choose where they live, it will then connect to the other projects that i did that were built on Vue and is part of the todo list for the client in submitting their application.  This doesnt have much of the styling that the other pages do, but it is really just a form submission aspect, that will then just say to them, thanks for submitting your form. 
 
 - Initiating a straightforward process for a 10 minute set up.  With CSS we will have tick boxes for each type of account, and *images*, or *infographics* that will flesh this out in terms of the various types of accounts that pertain to Australian investor types; 
 - this is in the form of another unordered list; 
