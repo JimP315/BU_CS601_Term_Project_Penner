@@ -1,3 +1,6 @@
+* {padding-right: 2 px;}
+* {padding-left: 2 px;}
+
 #menu__toggle {
     opacity: 0;
 }
