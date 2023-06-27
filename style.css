@@ -1,32 +1,193 @@
 /* CSS files add styling rules to your content */
 
-body {
-    background-color:bisque; 
-    font-family: helvetica, arial, sans-serif;
-    margin: 2em;
+
+* {padding-right: 3px; }
+* {padding-left: 2px; }
+
+#menu__toggle {
+    opacity: 0.8%;
 }
 
+#menu__toggle:checked+.menu__btn>span {
+    transform: rotate(45deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::before {
+    top: 0;
+    transform: rotate(0deg);
+}
+
+#menu__toggle:checked+.menu__btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu__toggle:checked~.menu__box {
+    left: 0 !important;
+}
+
+.menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 18px;
+    width: 16px;
+    height: 22px;
+    cursor: crosshair;
+    z-index: 1;
+}
+
+.menu__btn>span,
+.menu__btn>span::before,
+.menu__btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: .25s;
+}
+
+.menu__btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu__btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 130px;
+    height: 32%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #a6d2f0;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
+    transition-duration: .3s;
+}
+
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
+
+.menu__item:hover {
+    background-color: #CFD8DC;
+}
+
+a:link {
+    color: orangered;
+    /* unvisited link */
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(78, 13, 153);
+    text-decoration: underline; 
+}
+
+body {
+    background-image: url("./Images/Ipanema.JPG") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: helvetica, arial, sans-serif;
+    text-align: justify; 
+    font-size: 18 px;
+    margin: 2em;
+    border-style: solid; 
+}
+image {
+    img.align-center {
+        display: block;
+        margin: 1px;}
+    }
+div > p { margin: 9 px
+}
+
+    p {
+    font-size: 19px;
+    font-weight:700;
+    text-align: justify;
+    color: white; 
+}
 h1 {
     font-style: italic;
-    color: #373fff;
+    color: white;
+    border-style: solid;
+    border-radius: 4px; 
 }
 
-.remove {
-    display: inline-block;
-    background-color: #7b38d8;
-    border-radius: 10px;
-    border: 4px double #cccccc;
-    color: #fff;
+.container {
+    display: grid;
+    margin: 0;
+    height: 99vh;
+
+    grid-template-columns: 13% auto;
+    grid-template-rows: 7% 10% 40% 36% auto auto;
+    grid-template-areas:
+        "nav header"
+        "sidebar header"
+        "sidebar main"
+        "sidebar section"
+        "details details"
+        "footer footer";
+    grid-gap: 0.4rem;
+    font-family: "Cambria, Cochin, Georgia, Times, 'Times New Roman', serif";
+    font-weight: 900;
+    font-size: 18px;
     text-align: center;
-    font-size: 15px;
-    padding: 2px;
-    width: 20px;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
-    cursor: pointer;
-    margin: 5px;
+    text-indent: 35 px; 
+    line-height: 34 px; 
+}
+
+aside {
+    background: #419077;
+    grid-area: sidebar;
+    margin:2em; 
+    text-align: justify; 
+    text-size-adjust:unset;
+    color: white;
+    border-style: solid;
+    margin: 4 px; 
+
+}
+main, section {
+    text-align: justify; 
+    color: white;
+
+}
+@media (min-width: 600px) {
+    p {
+        font-size: 1.15rem;
+    }
+}
+
+nav {
+    background: #FCBA12;
+    grid-area: nav;
+}
+footer {
+    background-color: #664f13;
+    grid-area: footer;
+    color: white;
 }
 
 .completed {

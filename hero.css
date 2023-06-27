@@ -182,6 +182,7 @@ aside {
 header {
     grid-area: header;
     background-color: #D4E0F7;
+    padding: 2%; 
     }
 
 

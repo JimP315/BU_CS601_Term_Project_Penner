@@ -8,6 +8,8 @@ For the todo list for client with Vue and the add and delete buttons, the files 
 4. Component folder, and in that folder are:
 5.  Three js files:  todo.js, todoComponent.js and todolist.js.
 
+Also note that I have added a link to my GitHub.  I have cleaned up some of the text in the various pages by adding some padding, and this makes the text flow better.  Also I worked on the glitch to ensure that the pictures all loaded, as well as video, audio and others. I also have added some accessibility features with the cc on the video of the Tesla. 
+
 These all actually flow from How_to_invest.html.  When the client has the radio button input for which state they are in, the submit button will now take them to the first file above:  todo.html and this will then run the todo via vue functionality.
 ## There is now a hero page, and from this runs the recursion javascript file onto a separate page.  ##
 Although this doesnt have the same background, etc with navigation I wanted to show that I had incorporated some maths into the website, as I have always enjoyed maths, and recursion is quite challenging. After the hero page is an update on my hobbies of travel, and family, and sports etc. 

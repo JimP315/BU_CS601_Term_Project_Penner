@@ -25,10 +25,10 @@
 
 .menu__btn {
     position: fixed;
-    top: 20px;
-    left: 20px;
-    width: 26px;
-    height: 26px;
+    top: 18px;
+    left: 16px;
+    width: 20px;
+    height: 22px;
     cursor: pointer;
     z-index: 1;
 }
